@@ -1,0 +1,99 @@
+.Container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+
+.Instructions {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.Instructions-title {
+    font-size: 2rem;
+    margin: 0;
+    margin-bottom: 1rem;
+    padding: 0;
+    color: #ECE9E6;
+    /* light gray */
+}
+
+.Form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    margin: auto;
+    padding: 2rem;
+    background: rgba(255, 255, 255, 0.1);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.Form-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin: 1rem 0;
+}
+
+.Form-label {
+    font-size: 1rem;
+    margin: 0;
+    padding: 0;
+    width: 40%;
+    color: #ECE9E6;
+    /* light gray */
+}
+
+.Form-input {
+    margin-top: 0.5rem;
+    width: 60%;
+    height: 2rem;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: 1px solid #755DFF;
+    /* bright blue-purple */
+    background-color: rgba(255, 255, 255, 0.2);
+    color: #ECE9E6;
+    /* light gray */
+    outline: none;
+    transition: border 0.3s ease;
+}
+
+.Form-input:focus {
+    border-color: #590D82;
+    /* deep purple */
+}
+
+.Form-submit-button {
+    margin-top: 1rem;
+    width: 100%;
+    height: 2rem;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: none;
+    background-color: #755DFF;
+    /* bright blue-purple */
+    color: #ECE9E6;
+    /* light gray */
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.Form-submit-button:hover {
+    background-color: #590D82;
+    /* deep purple */
+}

@@ -1,0 +1,27 @@
+.navbar {
+    width: 100%;
+    padding: 1rem 0;
+    color: white;
+}
+
+.navbar ul {
+    display: flex;
+    justify-content: flex-start;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar li {
+    margin-right: 16px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.navbar a:hover {
+    color: #ddd;
+}
