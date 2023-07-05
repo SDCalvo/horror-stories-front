@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import Navbar from "./components/navbar/Navbar";
 import { DataProvider } from "./contexts/DataContext";
 import Home from "./components/home/Home";
+import Results from "./components/results/Results";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<TestComponent text="About" />} />
+            <Route path="/results" element={<Results />} />
           </Routes>
         </Router>
       </Box>
