@@ -21,8 +21,13 @@ async function getStory(data) {
     temperature,
     generations,
   };
-  const response = await axios.post("http://localhost:3000/story", body);
-  return response.data;
+  try {
+    const response = await axios.post("http://localhost:3000/story", body);
+    console.log(response);
+    return response.data;
+  } catch (error) {
+    return error;
+  }
 }
 
 export { getStory };

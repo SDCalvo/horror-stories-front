@@ -107,10 +107,7 @@ export default function Home() {
       temperature,
       generations,
     };
-    const response = await getStory(body);
-    setData({ ...data, gptResult: response });
-    setLoading(false);
-    navigate("/results");
+
     try {
       const response = await getStory(body);
       if (response instanceof Error) {
